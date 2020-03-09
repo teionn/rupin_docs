@@ -1,0 +1,21 @@
+{
+  "project":
+      {"_value":"rupin"
+       ,"python":0}
+
+  ,"version":
+      {"_value":"1.0.0"
+       ,"python":0}
+
+  ,"release":
+      {"_value":"1.0.0"
+       ,"python":0}
+
+  ,"author":
+      {"_value":"os.environ[\"USERNAME\"]"
+       ,"python":1}
+
+  ,"copyright":
+      {"_value":"2020 - rateionn@gmail.com"
+       ,"python":1}
+}
