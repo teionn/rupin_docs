@@ -5,7 +5,7 @@ Copy the entire `rupin` folder to`Documents/maya/scripts` or `Documents/maya/<ve
 Execute the following command in `python` or drag and drop` rupin.mel` to launch the tool.
 
 ### mel
-`rupin.mel`をMayaにドラッグアンドドロップします。
+Drag and drop `rupin.mel` into Maya.
 
 ### command-line
 ```python

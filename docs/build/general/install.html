@@ -1,14 +1,14 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="ja" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="ja" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Install &mdash; rupin 1.0.0 ドキュメント</title>
+  <title>Install &mdash; RUPIN 1.0.0 documentation</title>
   
 
   
@@ -25,7 +25,6 @@
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
         <script type="text/javascript" src="../_static/language_data.js"></script>
-        <script type="text/javascript" src="../_static/translations.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -34,10 +33,10 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
-    <link rel="index" title="索引" href="../genindex.html" />
-    <link rel="search" title="検索" href="../search.html" />
-    <link rel="next" title="MIT License" href="../license.html" />
+  <link rel="stylesheet" href="../_static/extra.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="MIT License" href="../license/license.html" />
     <link rel="prev" title="Changelog" href="../introduction/changelog.html" /> 
 </head>
 
@@ -52,7 +51,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> rupin
+            <a href="../index.html" class="icon icon-home"> RUPIN
           
 
           
@@ -86,9 +85,11 @@
               
             
             
-              <ul class="current">
+              <ul>
 <li class="toctree-l1"><a class="reference internal" href="../introduction/overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../introduction/changelog.html">Changelog</a></li>
+</ul>
+<ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Install</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#run">Run</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#mel">mel</a></li>
@@ -105,7 +106,9 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../license.html">MIT License</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../license/license.html">MIT License</a></li>
 </ul>
 
             
@@ -120,7 +123,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">rupin</a>
+          <a href="../index.html">RUPIN</a>
         
       </nav>
 
@@ -171,18 +174,18 @@
            <div itemprop="articleBody">
             
   <div class="section" id="install">
-<h1>Install<a class="headerlink" href="#install" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<h1>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h1>
 <p>Copy the entire <code class="docutils literal notranslate"><span class="pre">rupin</span></code> folder to<code class="docutils literal notranslate"><span class="pre">Documents/maya/scripts</span></code> or <code class="docutils literal notranslate"><span class="pre">Documents/maya/&lt;version&gt;/scripts</span></code>.</p>
 </div>
 <div class="section" id="run">
-<h1>Run<a class="headerlink" href="#run" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<h1>Run<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h1>
 <p>Execute the following command in <code class="docutils literal notranslate"><span class="pre">python</span></code> or drag and drop<code class="docutils literal notranslate"> <span class="pre">rupin.mel</span></code> to launch the tool.</p>
 <div class="section" id="mel">
-<h2>mel<a class="headerlink" href="#mel" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p><code class="docutils literal notranslate"><span class="pre">rupin.mel</span></code>をMayaにドラッグアンドドロップします。</p>
+<h2>mel<a class="headerlink" href="#mel" title="Permalink to this headline">¶</a></h2>
+<p>Drag and drop <code class="docutils literal notranslate"><span class="pre">rupin.mel</span></code> into Maya.</p>
 </div>
 <div class="section" id="command-line">
-<h2>command-line<a class="headerlink" href="#command-line" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>command-line<a class="headerlink" href="#command-line" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">rupin</span> <span class="kn">import</span> <span class="n">rupin</span>
 <span class="n">rupin</span><span class="o">.</span><span class="n">run_maya</span><span class="p">()</span>
 </pre></div>
@@ -190,9 +193,9 @@
 </div>
 </div>
 <div class="section" id="option">
-<h1>Option<a class="headerlink" href="#option" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<h1>Option<a class="headerlink" href="#option" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="gui">
-<h2>GUI<a class="headerlink" href="#gui" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>[x] Remove unknown nodes used</p>
 <ul>
@@ -202,9 +205,9 @@
 </ul>
 </div>
 <div class="section" id="id1">
-<h2>command-line<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2>command-line<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id2">
-<h3><a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>[x] Remove unknown nodes used</p>
 <ul>
@@ -218,13 +221,13 @@
 </div>
 </div>
 <div class="section" id="force-removal-of-unknown-nodes">
-<h3>Force removal of unknown nodes.<a class="headerlink" href="#force-removal-of-unknown-nodes" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>Force removal of unknown nodes.<a class="headerlink" href="#force-removal-of-unknown-nodes" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rupin</span><span class="o">.</span><span class="n">forceRemoveUnknownNode</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="force-removal-of-unknown-plugins">
-<h3>Force removal of unknown plugins.<a class="headerlink" href="#force-removal-of-unknown-plugins" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>Force removal of unknown plugins.<a class="headerlink" href="#force-removal-of-unknown-plugins" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rupin</span><span class="o">.</span><span class="n">forceRemoveUnknownPlugin</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -240,7 +243,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../license.html" class="btn btn-neutral float-right" title="MIT License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../license/license.html" class="btn btn-neutral float-right" title="MIT License" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../introduction/changelog.html" class="btn btn-neutral float-left" title="Changelog" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
@@ -252,7 +255,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 
+        &copy; Copyright 2019-2020 rateionn@gmail.com 天埜零士
 
     </p>
   </div>

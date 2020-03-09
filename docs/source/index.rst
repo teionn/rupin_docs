@@ -6,8 +6,24 @@
 Welcome to Rupin's documentation!
 ==========================================
 
+Introduction
+------------
 .. toctree::
+    :maxdepth: 1
+    
     introduction/overview
     introduction/changelog
+
+General
+-------
+.. toctree::
+    :maxdepth: 1
+    
     general/install
-    license
+    
+License
+-------
+.. toctree::
+    :maxdepth: 1
+    
+    license/license
